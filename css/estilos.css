@@ -1,0 +1,81 @@
+.flexContenedor {
+    display: flex;
+}
+
+.divIzquierdo {
+    width: 50%;
+}
+
+.divDerecho {
+    width: 50%;
+    justify-content: end;
+    margin-right: 40px;
+    display: flex;
+    margin-top: 80px;
+}
+
+nav {
+    background-color: #333333;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.divIzquierdo2 {
+    width: 70%;
+}
+
+article {
+    border: 2px solid;
+    padding: 5px;
+}
+
+.divDerecho2 {
+    width: 30%;
+}
+
+.contenedor {
+    display: flex;
+    padding-top: 10px;
+}
+
+li::marker {
+    content: "- ";
+}
+
+ul {
+    background-color: #999999;
+    padding: 20px;
+}
+
+aside {
+    border: 2px solid;
+}
+
+li {
+    margin: 5px;
+}
+
+section {
+    display: flex;
+    width: 100%;
+}
+
+section > article {
+    width: 100%;
+    margin-right: 5px;
+}
+
+footer > a {
+    color: #000;
+}
+
+footer {
+    background-color: #aaa;
+}
